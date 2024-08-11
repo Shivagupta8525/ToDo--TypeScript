@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import CompleteTAsk from "./completeTask";
+import CompleteTAsk from "./CompleteTask";
 import ReamaningTask from "./ReamaningTask";
 import InputComponent from "./InputComponent";
 import Header from "./Header";
