@@ -21,7 +21,8 @@ const CompleteTAsk: FC<thingsDoneProps> = ({thingsDone,AgainDo,removeItem})=> {
         <input type="checkbox"  name="inptCheckbox" className='' value="" onChange={()=> AgainDo(index)}></input>
            <p className='grow'>{p}</p>
            <button className="" onClick={()=> removeItem(index)}>
-           <ImCross className="text-xl text-red-400" />
+           <ImCross className="text-xl text-red-400
+           " />
            </button>
            </div>
            </>
